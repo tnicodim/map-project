@@ -81,7 +81,7 @@ int main() {
 	int x, y, opt;
 	while (1) {
 		printBoard();
-		cout << "1. Add a new rook\n2. Automatic rook placement\n3. Restart board\nOption: ";
+		cout << "1. Add a new rook\n2. Automatic rook placement\n3. Restart board\n0. Exit program\nOption: ";
 		cin >> opt;
 		char position[5];
 		int ok = 0;
