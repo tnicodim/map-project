@@ -1,10 +1,9 @@
 ﻿#include <iostream>
-#include <conio.h>
-
 using namespace std;
 
-const char BLACK = 219;
-const char WHITE = 32;
+const string BLACK = u8"█";
+const string WHITE  = " ";
+const string ROOK = "R";
 int board[8][8], init = 0;
 
 
@@ -38,9 +37,9 @@ void printBoard() {
 			for (j = 1; j <= 8; j++) {
 				if (m == 2 && (board[i-1][j-1]==1)) {
 					if ((i + j) % 2 == 0)
-						cout << BLACK << BLACK << "R" << BLACK << BLACK;
+						cout << BLACK << BLACK << ROOK << BLACK << BLACK;
 					else {
-						cout << WHITE << WHITE << "R" << WHITE << WHITE;
+						cout << WHITE << WHITE << ROOK << WHITE << WHITE;
 					}
 				}
 				else {
