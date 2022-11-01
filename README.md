@@ -148,6 +148,15 @@ void placeRooks(){
 				initBoard(i, j);
 }
 ```
+
+#### 3. Restart board
+
+Removes all rooks on the board and clears the rook matrix.
+
+#### 4. Exit
+
+Exits the program.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
