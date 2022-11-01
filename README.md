@@ -60,7 +60,7 @@
 ## About The Project
 
 
-This project is an assignment given to us in the 3rd semester. The main goal was to familiarize myself with GitHub & DockerHub and start using them in all future projects. 
+This project explores the 8 rook problem. The main goal was to familiarize myself with GitHub & DockerHub and start using them in all future projects. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +101,53 @@ To get a local container up and running follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After successfully downloading the docker image and running a container the program will present an empty chessboard and a menu. There the user can choose one of the 4 options.
+ <p align="center"><img src="https://i.ibb.co/BZ9PM4H/Img1.jpg"></p>
+ 
+#### 1. Add a new rook
 
+The add a new rook option allows the user to input a square where he would like to place a rook. This function has a validation function which checks if the user has written a valid chess notation && if the square is not occupied/attacked by other rooks.
+
+```cpp
+int isValid(int x,int y) {
+	if (board[x][y] != 0)
+		return 0;
+	return 1;
+}
+```
+
+```cpp
+
+			while (!ok) {
+				cout << "Choose a square using standard chess notation (ex: a4, f7 etc.): ";
+				cin >> position;
+				x = 8 - (int)(position[1] - 48);
+				y = position[0] - 97;
+				if (!(x >= 0 && x <= 7) || !(y >= 0 && y <= 7))
+					cout << "Invalid notation! Try again.\n";
+				else
+				{
+					if (isValid(x, y))
+						ok = 1;
+					else
+						cout << "\nInvalid placement!! Two rooks are attacking each other!\n\n";
+				}
+			}
+			initBoard(x, y);
+```
+
+#### 2. Automatic rook placement
+
+This option will automatically fill in all the remaining valid squares with rooks. The algorithm goes through the 8x8 matrix which represents each square of the board and places rooks on the first valid squares it finds.
+
+```sh
+void placeRooks(){
+	for (int i = 0; i < 8; i++)
+		for (int j = 0; j < 8; j++)
+			if (board[i][j] == 0)
+				initBoard(i, j);
+}
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
