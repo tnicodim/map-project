@@ -19,9 +19,9 @@
 <h3 align="center">8 Rooks</h3>
 
   <p align="center">
-    project_description
+    A C++ application showcasing the 8 rooks problem
     <br />
-    <a href="https://github.com/turtleterry/map-project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/turtleterry/map-project"><strong>Explore the repository »</strong></a>
     <br />
     <br />
     <a href="https://github.com/turtleterry/map-project/issues">Report Bug</a>
@@ -46,7 +46,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running-the-program">Running the Program</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -59,9 +59,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `turtleterry`, `map-project`, `twitter_handle`, `nicodim-tolico`, `gmail`, `tnicodimt`, `8 Rooks`, `project_description`
+This project is an assignment given to us in the 3rd semester. The main goal was to familiarize myself with GitHub & DockerHub and start using them in all future projects. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,9 +68,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* ![Laravel][Docker]
-* ![Bootstrap][cpp]
-* ![JQuery][mvs]
+* ![Docker]
+* ![cpp]
+* ![mvs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,32 +79,20 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local container up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-### Installation
+### Running the program
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. [Install](https://www.docker.com/products/docker-desktop/) and configure Docker Desktop
+2. Open a terminal and run the following code
    ```sh
-   git clone https://github.com/turtleterry/map-project.git
+   docker run --rm -it turtleterry/chess8rooks
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. Enjoy!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +102,6 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,9 +120,8 @@ Project Link: [https://github.com/turtleterry/map-project](https://github.com/tu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [README.md Template](https://github.com/othneildrew/Best-README-Template)
+* [IMG Shields](https://shields.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
