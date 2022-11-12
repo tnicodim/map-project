@@ -90,7 +90,7 @@ To get a local container up and running follow these simple steps.
 1. [Install](https://www.docker.com/products/docker-desktop/) and configure Docker Desktop
 2. Open a terminal and run the following code
    ```sh
-   docker run --rm -it tnicodim/chess8rooks
+   docker run --rm -it turtleterry/chess8rooks
    ```
 3. Enjoy!
 
