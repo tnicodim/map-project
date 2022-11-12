@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/turtleterry/map-project">
+  <a href="https://github.com/tnicodim/map-project">
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fdigital-marketing-7-1%2F128%2F325-512.png&f=1&nofb=1&ipt=39c80a0b53c861eb93a7a4bd6fa89e784010a9498777323eb87cd2e216d10aab&ipo=images" alt="Logo" width="80" height="80">
   </a>
 
@@ -21,12 +21,12 @@
   <p align="center">
     A C++ application showcasing the 8 rooks problem
     <br />
-    <a href="https://github.com/turtleterry/map-project"><strong>Explore the repository »</strong></a>
+    <a href="https://github.com/tnicodim/map-project"><strong>Explore the repository »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/turtleterry/map-project/issues">Report Bug</a>
+    <a href="https://github.com/tnicodim/map-project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/turtleterry/map-project/issues">Request Feature</a>
+    <a href="https://github.com/tnicodim/map-project/issues">Request Feature</a>
   </p>
 </div>
 
@@ -90,7 +90,7 @@ To get a local container up and running follow these simple steps.
 1. [Install](https://www.docker.com/products/docker-desktop/) and configure Docker Desktop
 2. Open a terminal and run the following code
    ```sh
-   docker run --rm -it turtleterry/chess8rooks
+   docker run --rm -it tnicodim/chess8rooks
    ```
 3. Enjoy!
 
@@ -165,7 +165,7 @@ Exits the program.
 
 Tolico Nicodim - tnicodimt@gmail.com
 
-Project Link: [https://github.com/turtleterry/map-project](https://github.com/turtleterry/map-project)
+Project Link: [https://github.com/tnicodim/map-project](https://github.com/tnicodim/map-project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,14 +183,14 @@ Project Link: [https://github.com/turtleterry/map-project](https://github.com/tu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/turtleterry/map-project.svg?style=for-the-badge
-[contributors-url]: https://github.com/turtleterry/map-project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/turtleterry/map-project.svg?style=for-the-badge
-[forks-url]: https://github.com/turtleterry/map-project/network/members
-[stars-shield]: https://img.shields.io/github/stars/turtleterry/map-project.svg?style=for-the-badge
-[stars-url]: https://github.com/turtleterry/map-project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/turtleterry/map-project.svg?style=for-the-badge
-[issues-url]: https://github.com/turtleterry/map-project/issues
+[contributors-shield]: https://img.shields.io/github/contributors/tnicodim/map-project.svg?style=for-the-badge
+[contributors-url]: https://github.com/tnicodim/map-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tnicodim/map-project.svg?style=for-the-badge
+[forks-url]: https://github.com/tnicodim/map-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/tnicodim/map-project.svg?style=for-the-badge
+[stars-url]: https://github.com/tnicodim/map-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tnicodim/map-project.svg?style=for-the-badge
+[issues-url]: https://github.com/tnicodim/map-project/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/nicodim-tolico
 [product-screenshot]: images/screenshot.png
